@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(if not exist \"Document\" mkdir \"Document\")",
+      "Bash(dir:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(if not exist \"%USERPROFILE%\\.claude\" mkdir \"%USERPROFILE%\\.claude\")",
+      "Bash(test:*)",
+      "Bash(mkdir:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(findstr:*)",
+      "Read(//d/Projects/unreal-mcp/Python/**)",
+      "Read(//d/Projects/unreal-mcp/**)",
+      "Bash(tasklist:*)",
+      "Bash(netstat:*)",
+      "Bash(python -c:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
